@@ -1,15 +1,15 @@
+from tasks import add_tasks
 user_name = input("Please enter your name : ")
 print("Welcome ", user_name)
 
-user_tasks = []
+tasks = []
 while True:
-    task = input("Please enter your task(If you don't want to enter any task(done)) : ")
-
+    task = add_tasks()
+    tasks.append(task)
     if task.lower() == "done":
         break
-    user_tasks.append(task)
 
 print("your task : ")
-for task in user_tasks:
+for task in tasks:
     print("- ", task)    
 
