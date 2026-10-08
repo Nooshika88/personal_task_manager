@@ -13,3 +13,5 @@ print("your task : ")
 for task in tasks:
     print("- ", task)    
 
+with open("tasks.txt", "w") as file:
+    file.write("\n".join(tasks))
