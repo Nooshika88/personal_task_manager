@@ -28,7 +28,7 @@ while True:
     tasks.append(task)
 
 
-print("your task : ")
+print("your task: ")
 for task in tasks:
     print("- ", task)    
     
