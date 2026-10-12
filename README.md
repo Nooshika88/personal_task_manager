@@ -24,6 +24,7 @@ A simple Python command-line Task Manager with task storage and environment-base
 - 👋 Personalized Welcome Message
 - ➕ Add New Tasks
 - 📋 Display All Tasks
+- 📌Categorizing tasks based on priority
 - ✅ Finish Adding Tasks with done
 - 💾 Save Tasks in tasks.txt
 - 🔐 Admin Mode Prompt
@@ -185,6 +186,7 @@ python --version
 - [x] Add and manage a task list
 Display all tasks
 - [x] Display all tasks
+- [x] Prioritizing tasks
 - [ ] Add task editing and deleting options
 - [ ] Implement admin password authentication
 
